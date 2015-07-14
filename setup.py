@@ -5,9 +5,9 @@ from os import path
 README = path.abspath(path.join(path.dirname(__file__), 'README.md'))
 
 setup(
-      name='pyourd',
+      name='pyramid_rest_route',
       version='0.1',
-      packages=['pyourd'],
+      packages=['pyramid_rest_route'],
       description='Simple helper for creating rest route and view',
       long_description=open(README).read(),
       author='Rick Mak',
